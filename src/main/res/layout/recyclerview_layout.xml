@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayoutRecyler"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recycleConstraintLayout"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textViewRecyclerItemID"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewRecyclerEvent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="4dp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textViewRecyclerItemID"
+            app:layout_constraintTop_toBottomOf="@+id/textViewRecyclerItemID"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textViewRecyclerYear"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textViewRecyclerEvent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewRecyclerEvent" />
+
+        <TextView
+            android:id="@+id/textViewRecyclerMonth"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textViewRecyclerYear"
+            app:layout_constraintTop_toBottomOf="@+id/textViewRecyclerYear" />
+
+        <TextView
+            android:id="@+id/textViewRecyclerDay"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textViewRecyclerMonth"
+            app:layout_constraintTop_toBottomOf="@+id/textViewRecyclerMonth" />
+
+        <TextView
+            android:id="@+id/textViewRecyclerHour"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textViewRecyclerDay"
+            app:layout_constraintTop_toBottomOf="@+id/textViewRecyclerDay" />
+
+        <TextView
+            android:id="@+id/textViewRecyclerMinute"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textViewRecyclerHour"
+            app:layout_constraintTop_toBottomOf="@+id/textViewRecyclerHour" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

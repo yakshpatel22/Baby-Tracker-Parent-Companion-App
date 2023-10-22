@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Project 1</string>
+    <string name="babyImageDescription">Awesome Baby</string>
+    <string name="textViewbabyname"> Baby Feeder Event Recorder by Yaksh Patel</string>
+    <string name="Settingsbutton">Settings</string>
+    <string name="SettingsExplation">Baby Feeder is a baby tracker app that allows new parents to watch their babys sleep as well as his meals and sleep. This app would be extremely beneficial to new parents.</string>
+    <string name="ReturnMain">Return to Main Menu</string>
+    <string name="babyInformationDescription">2nd Img</string>
+    <string name="recordactivity">Record Activity</string>
+    <string name="delete">Delete</string>
+    <string name="resetDB">Reset Database</string>
+    <string name="event">Event</string>
+    <string name="addbtn">Add</string>
+    <string name="dateSelection">Which Date?</string>
+</resources>
